@@ -27,12 +27,12 @@ public class ParseIntegers {
             	 int number = Integer.parseInt(next);
             	 sum += number;
 			} else {
-				justWords += next + " ";
+				justWords += " " + next;
 			}            
             
         }
         System.out.println("Sum is " + sum);
-        System.out.println("Just words:" + justWords.trim());
+        System.out.println("Just words:" + justWords);
        
     }
 }
